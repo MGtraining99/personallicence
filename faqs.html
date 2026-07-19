@@ -311,6 +311,18 @@ footer a:hover{color:#fff;}
   .nav-brand-text .name{font-size:15px;}
 }
 
+.price-banner{max-width:1180px;margin:24px auto 0;padding:0 24px;}
+.price-banner-inner{
+  background:var(--bg-tint);border:1.5px solid var(--border);border-radius:14px;
+  padding:24px 28px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;
+}
+.price-banner .price-block{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+.price-banner .price{font-family:'Nunito',sans-serif;font-weight:900;font-size:32px;color:var(--navy);}
+.price-banner .per{font-size:14px;font-weight:600;color:var(--muted);}
+.price-banner .note{font-size:13.5px;color:var(--muted);}
+.price-banner .no-vat{font-size:11px;font-weight:700;color:var(--orange-dark);background:#fff;border:1px solid var(--border);padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.03em;white-space:nowrap;}
+@media(max-width:560px){.price-banner-inner{flex-direction:column;align-items:flex-start;}}
+
 </style>
 </head>
 <body>
@@ -400,7 +412,7 @@ footer a:hover{color:#fff;}
           <ul>
             <li><strong>Onsite delivery</strong> &mdash; we come to your venue and deliver the course to a group of up to 15 candidates</li>
             <li><strong>E-learning</strong> &mdash; study the course content in your own time via our e-learning module, then take the exam remotely</li>
-            <li><strong>Online classroom</strong> &mdash; join a live online classroom session, then complete a remotely invigilated exam afterwards</li>
+            <li><strong>Online classroom</strong> &mdash; join a live online classroom session, then your remotely invigilated exam is arranged within 5 working days afterwards</li>
           </ul>
           Contact us to discuss which option is right for you.
         </div></div>
@@ -441,6 +453,16 @@ footer a:hover{color:#fff;}
             <li>No headphones or earpieces to be worn during the exam</li>
           </ul>
         </div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="fq">What if I have technical problems during the exam?<span class="fq-chevron">+</span></button>
+        <div class="fa-ans"><div class="fa-ans-inner">You'll be given the contact details for the remote invigilation company, who will support you throughout. You can also live chat with them during the exam if you run into any issues.</div></div>
+      </div>
+
+      <div class="faq-item">
+        <button class="fq">What if I miss the remote exam booked for me?<span class="fq-chevron">+</span></button>
+        <div class="fa-ans"><div class="fa-ans-inner">Unfortunately if the exam slot is missed, a rebooking fee of £50 per learner is charged to arrange a new sitting.</div></div>
       </div>
 
       <div class="faq-item">
